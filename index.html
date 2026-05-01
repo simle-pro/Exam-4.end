@@ -10,7 +10,7 @@
 
 <body class="font-sans max-w-300 m-auto">
 
-    <header class="w-full bg-white border-b border-gray-200 font-sans">
+    <header class="w-full bg-white border-b p-3 border-gray-200 font-sans">
         <div class="max-w-7xl mx-auto px-4 py-3">
             <div class="flex items-center justify-between ">
                 <div class="flex items-center gap-2 shrink-0">
@@ -53,7 +53,7 @@
         </div>
     </header>
 
-    <nav class="w-full bg-white shadow-sm border-b border-gray-100 font-sans">
+    <nav class="w-full p-3 bg-white shadow-sm border-b border-gray-100 font-sans">
         <div class="max-w-7xl mx-auto px-4 flex justify-between">
 
             <div class="flex items-center justify-between ">
@@ -123,7 +123,7 @@
             <p>Хирургия</p>
             <p>Мануальная терапия</p>
             <p>Психотерапия</p>
-            <button class=" p-3 rounded-2xl bg-blue-950  text-white hover:bg-black hover:border-2 hover:text-blue-400                                                    ">Все услуги</button>
+            <button class=" p-3 rounded-2xl bg-blue-950  text-white hover:bg-black hover:border-2 hover:text-blue-400">Все услуги</button>
         </div>
 
         <div class="flex flex-col gap-3 p-6 bg-gray-300 w-[99%] lg:w-[22%] rounded-2xl">
@@ -133,7 +133,7 @@
             <p>УЗИ</p>
             <p> Рентген</p>
             <p>Гастроскопия</p>
-            <button class=" p-3 rounded-2xl bg-blue-950  text-white hover:bg-black hover:border-2 hover:text-blue-400                                                   ">Вся диагностика</button>
+            <button class=" p-3 rounded-2xl bg-blue-950  text-white hover:bg-black hover:border-2 hover:text-blue-400">Вся диагностика</button>
         </div>
 
         <div class="flex flex-col gap-3 p-6 bg-gray-300 w-[99%] lg:w-[22%] rounded-2xl">
@@ -143,7 +143,7 @@
             <p>Хирург</p>
             <p>Терапевт</p>
             <p>Невролог</p>
-            <button class=" p-3 rounded-2xl bg-blue-950  text-white hover:bg-black hover:border-2 hover:text-blue-400                                                   ">Все врачи</button>
+            <button class=" p-3 rounded-2xl bg-blue-950  text-white hover:bg-black hover:border-2 hover:text-blue-400">Все врачи</button>
         </div>
 
         <div class="flex flex-col gap-3 p-6 bg-gray-300 w-[99%] lg:w-[22%] rounded-2xl">
@@ -157,9 +157,37 @@
         </div>
     </section>
 
-    
+    <section class="bg-blue-500 text-white flex flex-col p-3 lg:flex-row items-center justify-center gap-2">
+        <div class="w-[99%] lg:w-[60%] flex flex-col gap-4 p-10">
+            <h1 class="font-bold text-[20px] lg:text-[50px]">Записаться на приём</h1>
+            <div class="flex flex-col lg:flex-row gap-5">
+                <select class="p-3 border-none font-bold bg-white text-black lg:w-[48%] rounded-[7px]" name="Выберете направление" id="">
+                    <option value="">Выберете направление</option>
+                    <option value="">nobody</option>
+                    <option value="">nobody</option>
+                </select>
+                <input class="p-3 border-none font-bold bg-white text-black lg:w-[48%] rounded-[7px]" type="text" placeholder="Ваше имя">
+            </div>
+            <div class="flex flex-col lg:flex-row gap-5">
+                <select class="p-3 border-none font-bold bg-white text-black lg:w-[48%] rounded-[7px]" name="Выберете направление" id="">
+                    <option value="">Выберете направление</option>
+                    <option value="">nobody</option>
+                    <option value="">nobody</option>
+                </select>
+                <input class="p-3 border-none font-bold bg-white text-black lg:w-[48%] rounded-[7px]" type="text" placeholder="Ваше имя">
+            </div>
+        </div>
 
-
+        <div class="w-[99%] lg:w-[30%] flex flex-col  gap-5 ">
+            <p>Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+            <button class="p-3 mt-6  font-bold bg-blue-950 rounded-[7px]  hover:bg-black hover:border-2 hover:text-blue-400">Оставить заявку</button>
+            <div class="flex gap-3">
+                <input type="checkbox"> 
+                <label for="">Отправляя заявку, вы соглашаетесь на нашу 
+                    <br> политику конфиденциальности</label>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
