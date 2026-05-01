@@ -9,94 +9,116 @@
 </head>
 
 <body>
-   <header class="w-full bg-white border-b border-gray-200 font-sans">
+   <header class="w-full bg-white border-b border-gray-200 font-sans  max-w-[1400px] m-auto">
       <div class="max-w-7xl mx-auto px-4 py-3">
-
-         <div class="flex items-center justify-between gap-4">
-
-            <div class="flex items-center gap-2 flex-shrink-0">
-               <img src="./page2img/logo (24).png" alt="ГМЦ">
+         <div class="flex items-center justify-between ">
+            <div class="flex items-center gap-2 shrink-0">
+               <img class="w-[50%] lg:w-[90%]" src="./page2img/logo (24).png" alt="">
             </div>
-
-            <div class="hidden md:flex items-center justify-between flex-grow px-4 gap-6 text-sm text-slate-600">
+            <div class="hidden md:flex items-center justify-between grow px-4 gap-6 text-sm text-slate-600">
                <div>
                   <div class="text-cyan-700 font-bold text-lg">8 (495) 926-06-03</div>
                   <div class="flex items-center gap-1 text-green-500 text-xs">
                      <span>WhatsApp</span>
                   </div>
                </div>
-
                <div class="hidden lg:block">
                   <div>info@gormedcentre.ru</div>
                   <a href="#" class="text-cyan-600 underline">Заказать звонок</a>
                </div>
-
                <div class="hidden xl:block max-w-[150px]">
                   г. Мытищи, ул. Рождественская, д.7
                </div>
-
                <div class="hidden lg:block">
                   <div>Ежедневно</div>
                   <div>с 9.00 до 21.00</div>
                </div>
             </div>
-
             <div class="flex items-center gap-2">
                <button
                   class="px-3 py-2 bg-cyan-400 text-white text-sm rounded-md hover:bg-cyan-500 transition-colors uppercase font-bold">
                   <img src="./page2img/zoom-search.png" alt="">
                </button>
-
                <button
                   class="hidden sm:block px-6 py-3 bg-slate-100 text-cyan-800 font-medium rounded-md hover:bg-slate-200 transition-colors">
                   Личный кабинет
                </button>
-
                <button
-                  class="md:hidden px-3 py-2 border border-slate-300 rounded text-slate-600 text-sm font-bold uppercase">
+                  class="hidden md:hidden px-3 py-2 border border-slate-300 rounded text-slate-600 text-sm font-bold uppercase">
                   Меню
                </button>
             </div>
-
          </div>
       </div>
    </header>
-   <nav class="w-full bg-white shadow-sm border-b border-gray-100 font-sans">
-      <div class="max-w-7xl mx-auto px-4">
 
-         <div class="flex items-center justify-between h-14">
+   <nav class="w-full bg-white shadow-sm border-b border-gray-100 font-sans max-w-[1400px] m-auto py-[10px]">
+      <div class="max-w-7xl mx-auto px-4 flex justify-between">
+
+         <div class="flex items-center justify-between ">
 
             <div class="hidden md:flex items-center gap-6 text-slate-800 font-medium text-sm">
                <a href="../index.html" class="hover:text-cyan-600 transition-colors">Page 1 ▾</a>
-               <a href="#" class="hover:text-cyan-600 transition-colors">Page 2</a>
-               <a href="./page3" class="hover:text-cyan-600 transition-colors">Page 3</a>
-               <a href="./page4" class="hover:text-cyan-600 transition-colors">Page 4</a>
-               <a href="#" class="hover:text-cyan-600 transition-colors">Page 5</a>
-               <a href="#" class="hover:text-cyan-600 transition-colors">О центре ▾</a>
-               <a href="#" class="hover:text-cyan-600 transition-colors">Детство</a>
+               <a href="#" class="hover:text-cyan-600 transition-colors">Page 2 ▾</a>
+               <a href="./page3" class="hover:text-cyan-600 transition-colors">Page 3 ▾</a>
+               <a href="./page4" class="hover:text-cyan-600 transition-colors">Page 4 ▾</a>
                <a href="#" class="hover:text-cyan-600 transition-colors">Контакты</a>
+               <a href="#" class="hover:text-cyan-600 transition-colors">О центре</a>
+               <a href="#" class="hover:text-cyan-600 transition-colors">Детство </a>
+               <a href="#" class="hover:text-cyan-600 transition-colors">Многое </a>
             </div>
 
-            <div class="md:hidden flex items-center text-slate-800 font-bold text-sm uppercase">
-               Навигация
+
+            <div class="flex flex-col lg:hidden">
+               <details class="flex flex-col">
+                  <summary>pages</summary>
+                  <div class="flex flex-col">
+                     <a href="../index.html" class="hover:text-cyan-600 transition-colors">Page 1 ▾</a>
+                     <a href="#" class="hover:text-cyan-600 transition-colors">Page 2 ▾</a>
+                     <a href="./page3" class="hover:text-cyan-600 transition-colors">Page 3 ▾</a>
+                     <a href="./page4" class="hover:text-cyan-600 transition-colors">Page 4 ▾</a>
+                  </div>
             </div>
+            </details>
+         </div>
+         <div class="md:hidden flex items-center text-slate-800 font-bold text-sm uppercase">
+            Навигация
+         </div>
 
-            <div class="flex items-center gap-4">
-               <button
-                  class="hidden lg:flex items-center gap-2 text-slate-600 text-xs hover:text-cyan-600 transition-colors">
-                  <span class="text-lg"><img src="./page2img/icon (27).png" alt=""></span>
-                  Версия для слабовидящих
-               </button>
-
-               <button
-                  class="px-5 py-2.5 bg-cyan-700 text-white text-sm font-semibold rounded hover:bg-cyan-800 transition-shadow shadow-md">
-                  Запись на приём
-               </button>
-            </div>
-
+         <div class="flex items-center gap-4">
+            <button
+               class="hidden lg:flex items-center gap-2 text-slate-600 text-xs hover:text-cyan-600 transition-colors">
+               <span class="text-lg"><img src="./page2img/icon (27).png" alt=""></span>
+               Версия для слабовидящих
+            </button>
+            <button
+               class="px-5 py-2.5 bg-cyan-700 text-white text-sm font-semibold rounded hover:bg-cyan-800 transition-shadow shadow-md">
+               Запись на приём
+            </button>
          </div>
       </div>
+      </div>
    </nav>
+
+
+
+   <section
+      class="max-w-[1400px] h-[780px] lg:h-[672px] bg-linear-to-b lg:bg-linear-to-r relative from-[#02D7BD] via-[#7A8DCF] to-[#F485B4] mx-auto flex flex-col lg:flex-row items-center justify-between lg:justify-evenly mt-[60px] py-[20px] px-[20px]">
+      <img class="absolute lg:block hidden left-[683px]" src="./page2img/svg.png" alt="">
+      <img class="lg:hidden block absolute bottom-0" src="./page2img/svg (1).png" alt="">
+      <aside class="flex flex-col gap-y-[20px] z-1">
+         <p class="text-[white] lg:text-[60px] text-[40px] font-[700]">Позаботьтесь <br> о здоровье ребенка</p>
+         <p class="lg:text-[20px] text-[16px] font-[400] lg:w-[550px] text-[white] ">Осуществляем комплексное
+            медицинское обслуживание
+            населения: консультации и амбулаторное лечение у специалистов всех направлений, медицинские обследования и
+            диагностические процедуры.</p>
+         <button class="w-[229px] h-[60px] bg-[#00C6BF] text-[white] font-[600]">Записаться</button>
+      </aside>
+      <div class="z-1">
+         <img class="hidden lg:block relative top-[13px] place-self-center" src="./page2img/девушка с ребенком 1.png" alt="">
+         <img class="lg:hidden block relative top-[20px]" src="./page2img/девушка с ребенком 1 (1).png" alt="">
+      </div>
+   </section>
 </body>
 
 </html>
