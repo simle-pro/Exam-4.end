@@ -15,7 +15,7 @@
             <div class="flex items-center gap-2 shrink-0">
                <img class="w-[50%] lg:w-[90%]" src="./page2img/logo (24).png" alt="">
             </div>
-            <div class="hidden md:flex items-center justify-between grow px-4 gap-6 text-sm text-slate-600">
+            <div class="hidden lg:flex items-center justify-between grow px-4 gap-6 text-sm text-slate-600">
                <div>
                   <div class="text-cyan-700 font-bold text-lg">8 (495) 926-06-03</div>
                   <div class="flex items-center gap-1 text-green-500 text-xs">
@@ -57,7 +57,7 @@
 
          <div class="flex items-center justify-between ">
 
-            <div class="hidden md:flex items-center gap-6 text-slate-800 font-medium text-sm">
+            <div class="hidden lg:flex items-center gap-6 text-slate-800 font-medium text-sm">
                <a href="../index.html" class="hover:text-cyan-600 transition-colors">Page 1 ▾</a>
                <a href="#" class="hover:text-cyan-600 transition-colors">Page 2 ▾</a>
                <a href="./page3" class="hover:text-cyan-600 transition-colors">Page 3 ▾</a>
@@ -624,11 +624,13 @@
       </div>
       <div class="w-[320px] h-[500px] flex-shrink-0 flex flex-col justify-between items-center rounded-lg pb-[20px]">
          <img class="w-[100%] border-2 p-[30px] rounded-lg border-[#F0F6F9]" src="./page2img/image (51).png" alt="">
-         <p class="font-[600] w-[93%] text-[17px] text-[#4F4F4F] pt-[20px]">Лицензия Л017-01162-50/00561579 (выписка из реестра)</p>
+         <p class="font-[600] w-[93%] text-[17px] text-[#4F4F4F] pt-[20px]">Лицензия Л017-01162-50/00561579 (выписка из
+            реестра)</p>
       </div>
       <div class="w-[320px] h-[500px] flex-shrink-0 flex flex-col justify-between items-center rounded-lg pb-[20px]">
          <img class="w-[100%] border-2 p-[30px] rounded-lg border-[#F0F6F9]" src="./page2img/image (52).png" alt="">
-         <p class="font-[600] w-[93%] text-[17px] text-[#4F4F4F] pt-[20px]">Лицензия Л041-01162-50/00338967 (выписка из реестра)</p>
+         <p class="font-[600] w-[93%] text-[17px] text-[#4F4F4F] pt-[20px]">Лицензия Л041-01162-50/00338967 (выписка из
+            реестра)</p>
       </div>
    </section>
 
@@ -639,6 +641,51 @@
    </h1>
    <img class="m-auto mt-[60px] lg:block hidden" src="./page2img/image (53).png" alt="">
    <img class="m-auto mt-[60px] block lg:hidden" src="./page2img/map (3).png" alt="">
+
+
+   <section
+      class="lg:max-w-[1300px] w-[95%] h-[800px] lg:h-[400px] m-auto mt-[90px] bg-linear-to-r from-[#2DBDC4] to-[#7D8DD0] rounded-[14px] flex flex-col justify-evenly">
+      <aside
+         class="flex items-center justify-between px-[20px] lg:px-[50px] py-[20px] lg:py-[40px] lg:flex-row flex-col">
+         <h1 class="font-[700] text-[48px] text-white">Записаться на приём</h1>
+         <p class="font-[400] text-[20px] text-white leading-[30px]">Оставьте заявку и мы свяжемся <br> с вами
+            в ближайшее время</p>
+      </aside>
+      <aside class="flex justify-evenly lg:flex-row flex-col lg:p-[0px] p-[20px] pb-[30px] gap-y-8">
+         <div class="flex flex-col gap-8">
+            <div class="relative">
+               <select class="appearance-none bg-white rounded-lg py-[20px] pl-[30px] pr-[120px] w-full">
+                  <option>Выберете направление</option>
+               </select>
+               <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                  <img src="./page2img/Chevron Down.png" alt="">
+               </div>
+            </div>
+            <div class="relative">
+               <select class="appearance-none bg-white rounded-lg py-[20px] pl-[30px] pr-[120px] w-full">
+                  <option>Выберете врача</option>
+               </select>
+               <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                  <img src="./page2img/Chevron Down.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="flex flex-col gap-8">
+            <input type="text" placeholder="Ваше имя" class="bg-white rounded-lg py-[20px] pl-[30px] pr-[120px] w-full">
+            <input type="text" placeholder="Ваш телефон"
+               class="bg-white rounded-lg py-[20px] pl-[30px] pr-[120px] w-full">
+         </div>
+         <div class="flex flex-col items-start gap-8">
+            <button class="bg-[#00C6BF] text-white text-[18px] rounded-lg py-[20px] px-[30px] w-full">Оставить
+               заявку</button>
+            <div class="flex items-baseline gap-4 text-white leading-[24px]">
+               <input type="checkbox">
+               <p>Отправляя заявку, вы соглашаетесь на нашу <br><span class="underline">политику
+                     конфиденциальности</span></p>
+            </div>
+         </div>
+      </aside>
+   </section>
 </body>
 
 </html>
